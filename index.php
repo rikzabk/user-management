@@ -9,7 +9,7 @@ if (isset($_POST["simpan"])) {
 		echo "
 			<script>
 				alert('Data berhasil ditambahkan');
-				document.location.href = 'http://localhost/user-management/index.php';
+				document.location.href = 'index.php';
 			</script>
 			";
 		} else {
@@ -28,7 +28,7 @@ if (isset($_POST["ubah"])) {
 		echo "
 			<script>
 				alert('Data berhasil diubah');
-				document.location.href = 'http://localhost/user-management/index.php';
+				document.location.href = 'index.php';
 			</script>
 			";
 		} else {
@@ -46,7 +46,7 @@ if (isset($_POST["submit"])) {
 		echo "
 			<script>
 				alert('Gambar berhasil ditambahkan');
-				document.location.href = 'http://localhost/user-management/index.php';
+				document.location.href = 'hindex.php';
 			</script>
 			";
 		} else {
@@ -64,7 +64,7 @@ if (isset($_POST["change"])) {
 		echo "
 			<script>
 				alert('Status berhasil diubah')
-				document.location.href = 'http://localhost/user-management/index.php';
+				document.location.href = 'index.php';
 			</script>
 			";
 	} else {
